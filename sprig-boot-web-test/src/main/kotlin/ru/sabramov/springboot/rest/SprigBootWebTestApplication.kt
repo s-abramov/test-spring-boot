@@ -1,4 +1,4 @@
-package com.example.sprig_boot_web_test
+package ru.sabramov.springboot.rest
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -6,6 +6,6 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class SprigBootWebTestApplication
 
-fun main(args: Array<String>) {
-	runApplication<SprigBootWebTestApplication>(*args)
-}
+	fun main(args: Array<String>) {
+		runApplication<SprigBootWebTestApplication>(*args)
+	}
